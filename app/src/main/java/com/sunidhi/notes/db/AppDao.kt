@@ -7,7 +7,7 @@ import androidx.room.Query
 @Dao
 interface AppDao {
 
-    @Query("SELECT * FROM note ORDER BY id DESC")
+    @Query("SELECT * FROM user ORDER BY id DESC")
     fun getRecord(): List<UserEntity>
 
     @Insert

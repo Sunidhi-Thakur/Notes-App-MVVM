@@ -21,6 +21,9 @@
         android:layout_height="wrap_content"
         android:layout_margin="24dp"
         android:text="@string/save"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="@color/purple_500"
         android:layout_below="@id/editNote"/>
 
     <TextView
